@@ -111,7 +111,7 @@ const Home = () => {
           <p className="text-center mt-2 max-w-3xl mx-auto">
             Our blog is a treasure trove of informative and engaging articles
             written by our team of nutritionists, dietitians, and wellness
-            experts. Here's what you can expect from our blog.
+            experts. Here&apos;s what you can expect from our blog.
           </p>
         </div>
         <div className=" grid md:grid-cols-2 max-w-6xl mx-auto gap-4 lg:gap-6 mt-10 ">

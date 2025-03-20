@@ -269,6 +269,48 @@ export const ChevronRightIcon = ({ className }: { className?: string }) => {
     </svg>
   );
 };
+
+export const PlayIcon = ({ className }: { className?: string }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={cn("size-4 fill-primary-1", className)}
+    >
+      <polygon points="6 3 20 12 6 21 6 3" />
+    </svg>
+  );
+};
+
+
+export const PuaseIcon = ({ className }: { className?: string }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={cn("size-4 fill-primary-1", className)}
+    >
+      <rect x="14" y="4" width="4" height="16" rx="1" />
+      <rect x="6" y="4" width="4" height="16" rx="1" />
+    </svg>
+  );
+};
+
+
 export const MailIcon = ({ className }: { className?: string }) => {
   return (
     <svg
@@ -433,7 +475,6 @@ export const RightIcon = ({ className }: { className?: string }) => {
     </svg>
   );
 };
-
 
 export const FacebookIcon = ({ className }: { className?: string }) => {
   return (

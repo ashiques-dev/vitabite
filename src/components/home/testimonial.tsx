@@ -1,7 +1,7 @@
 "use client";
 import React, { useCallback, useEffect, useState } from "react";
 import { testimonialsList } from "../data";
-import { ChevronRightIcon, QuatationIcon } from "../svg";
+import { ChevronRightIcon, PlayIcon, PuaseIcon, QuatationIcon } from "../svg";
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import AutoScroll from "embla-carousel-auto-scroll";
@@ -107,12 +107,7 @@ const Testimonials = () => {
 
   return (
     <>
-      <div
-        className="mt-10 overflow-hidden"
-        ref={emblaRef}
-        onMouseEnter={toggleAutoplay}
-        onMouseLeave={toggleAutoplay}
-      >
+      <div className="mt-10 overflow-hidden" ref={emblaRef}>
         <div className="flex -ml-4">
           {testimonialsList.map(({ text, userSrc, username }, index) => (
             <div
@@ -157,6 +152,12 @@ const Testimonials = () => {
           className="size-8 inline-flex items-center justify-center bg-secondary-4 border rounded-md disabled:opacity-50 disabled:cursor-not-allowed "
         >
           <ChevronRightIcon />
+        </button>
+        <button
+          onClick={toggleAutoplay}
+          className="size-8 inline-flex items-center justify-center bg-secondary-4 border rounded-md disabled:opacity-50 disabled:cursor-not-allowed "
+        >
+          {isPlaying ? <PuaseIcon /> : <PlayIcon />}
         </button>
       </div>
     </>
