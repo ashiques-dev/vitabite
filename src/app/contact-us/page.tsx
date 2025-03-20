@@ -27,8 +27,8 @@ const ContactUs = () => {
           <p className="max-w-4xl mt-4">
             We value your feedback, questions, and concerns at Nutritionist. Our
             dedicated team is here to assist you and provide the support you
-            need on your nutritional journey. Please don't hesitate to reach out
-            to us using any of the following contact methods
+            need on your nutritional journey. Please don&apos;t hesitate to
+            reach out to us using any of the following contact methods
           </p>
         </div>
       </div>

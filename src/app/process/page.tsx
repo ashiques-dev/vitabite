@@ -17,10 +17,10 @@ const Process = () => {
           <p className="max-w-4xl mt-4">
             At Nutritionist, we believe in providing a personalized and
             comprehensive approach to help you achieve your health and wellness
-            goals. Our "How it Works" process is designed to guide you through
-            each step of your journey, ensuring that you receive the support,
-            knowledge, and tools you need to succeed. Here's a detailed
-            breakdown of our process:
+            goals. Our &quot;How it Works&quot; process is designed to guide you
+            through each step of your journey, ensuring that you receive the
+            support, knowledge, and tools you need to succeed. Here&apos;s a
+            detailed breakdown of our process:
           </p>
         </div>
       </div>
@@ -32,7 +32,7 @@ const Process = () => {
           We provide a step-by-step guide on how to get started on your journey
           towards better health and nutrition. We are here to simplify the
           process and make it easy for you to navigate our platform and access
-          the resources you need to achieve your goals. Here's how it works
+          the resources you need to achieve your goals. Here&apos;s how it works
         </p>
       </div>
       <div className=" grid md:grid-cols-2 gap-8 mt-10  padding max-w-5xl mx-auto">
