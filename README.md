@@ -4,7 +4,7 @@
 Vitabite is a Next.js-powered nutrition website dedicated to promoting health and wellness through expert guidance and quality products. Offering insightful articles, personalized diet plans, and a curated selection of supplements, Vitabite helps users make informed choices for a healthier lifestyle. Whether you're looking to boost your energy, improve your diet, or explore the latest in nutrition science, Vitabite is your trusted source for all things health and wellness.
 
 ## Live Demo
-Check out the live demo: [Vitabite](https://inqube.vitabite.app/)
+Check out the live demo: [Vitabite](https://vitabite.vercel.app/)
 
 ## Getting Started
 
